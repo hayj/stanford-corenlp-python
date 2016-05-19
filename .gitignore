@@ -1,0 +1,43 @@
+##########################
+#Linux Specific GitIgnore#
+##########################
+.*
+!.gitignore
+*~
+*.sw[a-p]
+
+# KDE
+.directory
+
+############################
+#Eclipse Specific GitIgnore#
+############################
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# CDT-specific
+.cproject
+
+
+*.pyc
+
+
+*.pyc
+stanford-corenlp-*
+/stanford-corenlp-*
+stanford-corenlp-full-2014-08-27
+stanford-corenlp-full-2014-08-27/*
+stanford-corenlp-full-2014-08-27/*/*
+.*project
